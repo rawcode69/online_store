@@ -1,6 +1,10 @@
 package com.ijse.online_store.entity;
 
+import java.util.Date;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -12,13 +16,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToOne;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Getter
 @Setter
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Jersey {
   
   @Id
@@ -31,7 +35,7 @@ public class Jersey {
 
   private String jerseyYear;
 
-  @Column(unique = true)
+  @Column(nullable = false)
   private String jerseyTeam;
 
   @Column(nullable = false)
@@ -45,12 +49,24 @@ public class Jersey {
   @Column(nullable = false)
   private Boolean isJerseyNew;
 
-  @ManyToOne
-  @JoinColumn(name = "categoryId")
-  Category category;
+  @Column(nullable = false)
+  private Integer quantity_S;
 
-  @OneToOne(mappedBy = "jersey", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-  Stock stock;
+  @Column(nullable = false)
+  private Integer quantity_M;
+
+  @Column(nullable = false)
+  private Integer quantity_L;
+
+  @Column(nullable = false)
+  private Integer quantity_XL;
+
+  private Date lastUpdated;
+
+  @JsonBackReference
+  @ManyToOne
+  @JoinColumn(name = "categoryId",nullable = false)
+  Category category;
 
   @ManyToMany(mappedBy = "jerseys",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
   private List<Orders>orders;
