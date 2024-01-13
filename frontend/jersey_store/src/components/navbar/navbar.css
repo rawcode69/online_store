@@ -1,0 +1,123 @@
+.dw__navbar_topbar {
+  display: flex;
+  justify-content: flex-end;
+  height: 2rem;
+  background-color: var(--color-bg-product);
+}
+
+.dw__navbar_topbar_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dw__navbar_topbar_links img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  opacity: 50%;
+}
+
+.dw__navbar_topbar_links p{
+  margin: 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 300;
+  color: rgb(109, 109, 109);
+}
+
+.dw__navbar_topbar_links div{
+ width: 1px;
+ background-color: rgb(173, 173, 173);
+ height: 25px;
+}
+
+.dw__navbar_midbar {
+  display: flex;
+  padding: 0.5rem 4rem;
+}
+
+.dw__navbar_midbar_links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dw__navbar_midbar_links_logo {
+  justify-content: flex-start;
+
+}
+
+.dw__navbar_midbar_links_logo img {
+  width: 165px;
+  height: 84px;
+}
+
+.dw__navabar_midbar_links_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.dw__navabar_midbar_links_buttons p {
+  padding: 0 1rem;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.dw__navbar_midbar_links_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dw__navbar_midbar_links_right__search-bar {
+  display: flex;
+  align-content: center;
+  width: 200px;
+  height: 50px;
+  padding: 1rem;
+  background-color: var(--color-bg-product);
+  border: none;
+  border-radius: 3px;
+  text-align: right;
+}
+
+.dw__navbar_midbar_links_right__search-bar input {
+  width: 135px;
+  height: 20px;
+  background-color: var(--color-bg-product);
+  border: none;
+  text-align: center;
+}
+
+.dw__navbar_midbar_links_right__search-bar img{
+  width: 20px;
+  height: 20px;
+  margin-right: 0.75rem;
+}
+
+.dw__navbar_midbar_links_right__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.dw__navbar_midbar_links_right__icons img{
+  width: 25px;
+  height: 25px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.dw__navbar_bottombar {
+  height: 2rem;
+  background-color: var(--color-bg-product);
+}
