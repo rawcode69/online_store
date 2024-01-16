@@ -3,7 +3,7 @@
 :root {
   --font-family: 'Lato', sans-serif;
 
-  --gradient-label : radial-gradient(circle at 3% 25%, rgba(217, 217, 217, 1) 1%, rgba(163, 163, 163, 1) 100%);
+  --gradient-label : radial-gradient(circle at 0% 15%, rgba(247, 246, 246, 1) 0%, rgba(233, 233, 233, 1) 100%);
   --color-bg-product: #EAEAEA;
   --color-text: #000000;
   --color-subtext: #7B7B7B;
