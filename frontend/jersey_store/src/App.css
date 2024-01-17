@@ -16,13 +16,30 @@ a {
 }
 
 .section__margin {
-  margin: 4rem 2rem 0 2rem;
+  margin: 2rem 2rem 0rem 2rem;
 
 }
 
 .scale-up-top {
   -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.button_black{
+    display: flex;
+  margin-top: 2rem;
+  background-color: black;
+  height: 40px;
+  width: 175px;
+  color: aliceblue;
+  border: none;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 650;
+  font-size: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -66,7 +83,7 @@ a {
 
   .section__margin {
 
-
+    margin: 2rem 1.25rem 0 1.25rem;
   }
 }
 
@@ -78,6 +95,6 @@ a {
 
   .section__margin {
 
-    
+    margin: 1rem 1rem 0 1rem;
   }
 }

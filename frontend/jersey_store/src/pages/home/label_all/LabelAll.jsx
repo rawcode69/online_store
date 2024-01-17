@@ -11,7 +11,7 @@ const LabelAll = () => {
       <div className='dw__allLabel_content'>
           <h1>NEW YEAR NEW JERSEYS</h1>
           <p>New Jerseys are coming  and they are so good </p>
-          <div className='dw__allLabel_content-button'>SHOP NOW</div>
+          <div className='dw__allLabel_content-button button_black'>SHOP NOW</div>
       </div>
 
       <img src={righttImage} alt="img_women" className='dw__allLabel_rightImg' />

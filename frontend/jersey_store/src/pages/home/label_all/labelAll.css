@@ -37,82 +37,73 @@
   text-align: center;
 }
 
-.dw__allLabel_content-button {
-  display: flex;
-  margin-top: 2rem;
-  background-color: black;
-  height: 40px;
-  width: 175px;
-  color: aliceblue;
-  border: none;
-  border-radius: 25px;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  font-weight: 650;
-  font-size: 15px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
-}
 
 @media screen and (max-width:1050px) {
 
   .dw__allLabel {
 
-    height: 300px;
+    height: 350px;
 
   }
 
   .dw__allLabel_content h1 {
 
     margin-top: 5rem;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 650;
 
   }
 
   .dw__allLabel_content p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 0.5rem;
     font-weight: 400px;
   }
 
   .dw__allLabel_content-button {
-    height: 30px;
+    height: 35px;
     width: 125px;
     font-size: 13px;
   }
 
-  @media screen and (max-width:550px) {
+}
 
-    .dw__allLabel {
+@media screen and (max-width:550px) {
 
-      height: 125px;
-  
-    }
+  .dw__allLabel {
 
-    .dw__allLabel_content h1 {
+    height: 250px;
 
-      margin-top: 1.5rem;
-      font-size: 15px;
-      font-weight: 650;
-  
-    }
-  
-    .dw__allLabel_content p {
-      font-size: 8px;
-      margin-top: 0.5rem;
-      font-weight: 400px;
-    }
-  
-    .dw__allLabel_content-button {
-      height: 15px;
-      width: 50px;
-      font-size: 6px;
-      margin-top: 0.5rem;
-    }
-    
+  }
+
+  .dw__allLabel_leftImg{
+    display: none;
+  }
+
+  .dw__allLabel_content{
+    margin-left: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .dw__allLabel_content h1 {
+
+    margin-top: 4rem;
+    font-size: 18px;
+    font-weight: 650;
+
+  }
+
+  .dw__allLabel_content p {
+    display: none;
+  }
+
+  .dw__allLabel_content-button {
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+    margin-top: 1rem;
   }
 
 
+  
 }
