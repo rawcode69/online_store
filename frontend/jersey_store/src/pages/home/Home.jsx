@@ -5,12 +5,13 @@ import { Brands, Label_All, Label_Kids, Label_Men_Women, Shop_All } from '.';
 import { Home_Display } from '../../containers';
 import HomeVideo from './home_video/HomeVideo';
 
+
 const Home = () => {
   return (
     <div className='Home'>
       <Navbar/>
       <Label_All/>
-      <Home_Display/>
+      <Home_Display title = "FRESH OFF THE  PITCH"  click = "Explore"/>
       <Label_Kids/>
       <Home_Display/>
       <Label_Men_Women/>

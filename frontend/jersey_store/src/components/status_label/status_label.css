@@ -1,0 +1,18 @@
+.dw_status{
+  position: absolute;
+  display: flex;
+  height: 25px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0 0 0.5rem;
+  background-color: rgb(251, 251, 251);
+  border: none;
+  border-radius: 5px;
+}
+
+.dw_status p{
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 800;
+}

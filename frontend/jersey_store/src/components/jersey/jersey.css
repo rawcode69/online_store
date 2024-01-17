@@ -1,0 +1,25 @@
+.dw__jersey{
+  display: flex;
+  flex-direction: column;
+}
+
+.dw__jersey_img{
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 300px;
+  background-color: var(--color-bg-product);
+  margin: 1rem 1rem 0 0;
+  border-radius: 3px;
+}
+
+.dw__jersey_img img{
+  display: flex;
+  max-width:100%;
+}
+
+.dw__jersey_img .status-label {
+
+  position: absolute;
+
+}
