@@ -1,0 +1,28 @@
+.dw__brands {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem 12rem;
+}
+
+@media screen and (max-width:1050px) {
+  .dw__brands{
+    height: 75px;
+
+  }
+}
+
+@media screen and (max-width:850px) {
+  .dw__brands{
+    height: 65px;
+    
+  }
+}
+
+@media screen and (max-width:550px) {
+  .dw__brands{
+    height: 40px;
+    margin: 2rem 3rem;
+  }
+}

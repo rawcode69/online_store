@@ -30,7 +30,7 @@ const HomeDisplay = (props) => {
       <div className='dw__home-display_container' ref={scrollRef}>
         <div className='dw__home-display_container_images'>
           {[images.barca_men, images.madrid_women, images.arsenal_kid, images.city_men, images.barca2_men, images.mardid2_women].map((image) => (
-            <Jersey img1={image} />
+            <Jersey img1={image} status ={props.status}/>
           ))}
         </div>
 

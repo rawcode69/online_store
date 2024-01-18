@@ -10,7 +10,7 @@ const Jersey = (props) => {
       <div className='dw__jersey_img'>
         
         <div>
-          <StatusLabel status={"NEW"} />
+          <StatusLabel status={props.status} />
         </div>
           <img src={props.img1} alt="img_1" />
        

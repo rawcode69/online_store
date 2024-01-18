@@ -11,11 +11,11 @@ const Home = () => {
     <div className='Home'>
       <Navbar/>
       <Label_All/>
-      <Home_Display title = "FRESH OFF THE  PITCH"  click = "Explore"/>
+      <Home_Display title = "FRESH OFF THE  PITCH"  click = "Explore" status="NEW"/>
       <Label_Kids/>
-      <Home_Display/>
+      <Home_Display title = "SCORE THE BIG SAVING" click = "Explore" status="10%"/>
       <Label_Men_Women/>
-      <Home_Display/>
+      <Home_Display title = "BEST SELLERS OF THE SEASON" click="Explore" status = "BEST"/>
       <Brands/>
       <Shop_All/>
       <HomeVideo/>
