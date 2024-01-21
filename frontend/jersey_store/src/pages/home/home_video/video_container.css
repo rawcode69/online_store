@@ -1,0 +1,17 @@
+.dw__videos {
+  display: flex;
+}
+
+.dw__videos_body{
+  display: flex;
+ 
+}
+
+.dw__videos_body__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.dw__video_body__container-half{
+  display: flex;
+}

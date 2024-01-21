@@ -18,7 +18,7 @@ const Home = () => {
       <Home_Display title = "BEST SELLERS OF THE SEASON" click="Explore" status = "BEST"/>
       <Brands/>
       <Shop_All/>
-      <HomeVideo/>
+      {/* <HomeVideo/> */}
       <Footer/>
     </div>
   )

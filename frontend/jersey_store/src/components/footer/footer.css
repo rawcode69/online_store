@@ -1,0 +1,159 @@
+.dw__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 6rem;
+  font-family: var(--font-family);
+}
+
+.dw__footer_container-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dw__footer_container-mid img {
+  width: 250px;
+  height: 125px;
+}
+
+.dw__footer_container-mid_button {
+  height: 55px;
+  width: 120px;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+  font-family: var(--font-family);
+}
+
+.dw__footer_container-mid_social-media {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.dw__footer_container-mid_social-media img {
+  display: flex;
+  width: 35px;
+  height: 35px;
+}
+
+.dw__footer_container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dw__footer_container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dw__footer_container-left h2 {
+  margin-bottom: 1rem;
+}
+
+.dw__footer_container-right img {
+  width: 225px;
+  height: 45px;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:1050px) {
+
+  .dw__footer_container-mid img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .dw__footer_container-mid_social-media {
+    width: 150px;
+  }
+
+  .dw__footer_container-mid_social-media img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+
+  .dw__footer {
+    margin: 4rem 4rem;
+  }
+
+  .dw__footer_container-right img {
+    width: 200px;
+    height: 35px;
+  }
+
+}
+
+@media screen and (max-width:850px) {
+  .dw__footer_container-mid img {
+    width: 175px;
+    height: 87px;
+  }
+  .dw__footer_container-mid_social-media {
+    width: 125px;
+  }
+
+  .dw__footer_container-mid_social-media img {
+    display: flex;
+    width: 25px;
+    height: 25px;
+  }
+
+  .dw__footer_container-left h2{
+    font-size: 15px;
+  }
+
+  .dw__footer_container-left p{
+    font-size: 12px;
+    
+  }
+
+  .dw__footer_container-right h2{
+    font-size: 15px;
+  }
+
+  .dw__footer_container-right img{
+    width: 175px;
+    height: 30px;
+  }
+
+  .dw__footer_container-mid_rights{
+    font-size: 12px;
+  }
+
+  .dw__footer_container-mid_slogan{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .dw__footer {
+    margin: 3rem 3rem;
+  }
+
+
+}
+
+@media screen and (max-width:550px) {
+  .dw__footer{
+    flex-direction: column;
+  }
+
+  .dw__footer_container-mid{
+    order: 1;
+  }
+
+  .dw__footer_container-right{
+    order: 2;
+  }
+
+  .dw__footer_container-left{
+    order: 3;
+    margin-top: 1rem;
+  }
+
+
+}

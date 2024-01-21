@@ -1,0 +1,40 @@
+.dw__videos {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.dw__videos_body {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.dw__videos_body .dw__videos_body__container {
+  display: flex;
+  width: 450px;
+
+}
+
+.dw__videos_body .dw__video-full {
+  display: flex;
+  width: 450px;
+  height: 550px;
+}
+
+.dw__video_body__container-half{
+  display: flex;
+
+}
+
+.dw__videos_body .dw__video-half_left .dw__video-half_right {
+  display: flex;
+
+}
+
+.dw__videos_body .dw__video-half_left .dw__video-half_right video {
+  display: flex;
+  width: 220px;
+  height: 285px;
+}
