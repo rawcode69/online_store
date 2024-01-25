@@ -1,0 +1,1 @@
+export {default as Men_Label} from './men_label/Men_label';

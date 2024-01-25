@@ -1,0 +1,14 @@
+.dw__men-label{
+    display: flex;
+    justify-content: space-between;
+    background: var(--gradient-label);
+}
+
+.dw__label-image{
+    display: flex;
+    height: 650px;
+}
+
+.dw__men-label_image{
+
+}
