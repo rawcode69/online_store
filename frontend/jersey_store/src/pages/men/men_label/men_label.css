@@ -1,14 +1,139 @@
 .dw__men-label{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     background: var(--gradient-label);
-}
-
-.dw__label-image{
-    display: flex;
-    height: 650px;
+    height: 600px;
 }
 
 .dw__men-label_image{
 
+    display: flex;
+
+}
+
+.dw__men-label_image img{ 
+    display: flex;
+
+}
+
+.dw__men-label_content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    font-family: var(--font-family);
+}
+
+.dw__men-label_content h1{
+    margin-top: 6rem;
+    font-size: 45px;
+    word-spacing: 8px;
+}
+
+.dw__men-label_content p {
+    font-size: 25px;
+}
+
+.dw__men-label_content-p1{
+    line-height: 30px;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.dw__men-label_content img{
+    display: flex;
+    width: 450px;
+    height: 75px;
+    align-self: last baseline;
+    margin-top: 15rem;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .dw__men-label{
+        height: 450px;
+    }
+
+    .dw__men-label_content h1{
+        margin-top: 3rem;
+        font-size: 35px;
+        word-spacing: 6px;
+    }
+
+    .dw__men-label_content p {
+        font-size: 22px;
+    }
+
+    .dw__men-label_content img{
+        display: flex;
+        width: 275px;
+        height: 50px;
+        align-self: last baseline;
+        margin-top: 7rem;
+    }
+
+    .dw__men-label_content{
+        margin-right: 3rem;
+
+    }
+
+    .dw__men-label_image{
+        max-width: 500px;
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+    .dw__men-label{
+        height: 350px;
+    }
+
+    .dw__men-label_content h1{
+        margin-top: 3rem;
+        font-size: 28px;
+        word-spacing: 6px;
+    }
+
+    .dw__men-label_content p {
+        font-size: 18px;
+    }
+
+    .dw__men-label_content img{
+        display: flex;
+        width: 175px;
+        height: 35px;
+        align-self: last baseline;
+        margin-top: 5rem;
+    }
+
+    .dw__men-label_image{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .dw__men-label{
+        height: 250px;
+        
+    }
+
+    .dw__men-label_content h1{
+        display: none;
+        /* margin-top: 3rem;
+        font-size: 12x;
+        word-spacing: 6px; */
+    }
+
+    .dw__men-label_content p {
+        display: none;
+    }
+
+    .dw__men-label_content img{
+       display: none;
+    }
+
+    .dw__men-label_image{
+        max-width: 250px;
+    }
 }

@@ -1,0 +1,1 @@
+export {default as Women_Label} from './women_label/Women_Label';
