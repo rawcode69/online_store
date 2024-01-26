@@ -1,0 +1,6 @@
+.dw__jersey-container {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font-family);
+}
+
