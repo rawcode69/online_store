@@ -5,6 +5,7 @@
 
   --gradient-label : radial-gradient(circle at 0% 15%, rgba(247, 246, 246, 1) 0%, rgba(233, 233, 233, 1) 100%);
   --color-bg-product: #EAEAEA;
+  --color-seperate-line: #bebebe;
   --color-text: #000000;
   --color-subtext: #7B7B7B;
 }

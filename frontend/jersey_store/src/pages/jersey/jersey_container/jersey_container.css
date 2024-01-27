@@ -1,6 +1,219 @@
 .dw__jersey-container {
+    margin: 2rem 6rem 0rem 6rem;
     display: flex;
     flex-direction: row;
     font-family: var(--font-family);
+    
 }
+
+.dw__jersey-container_left {
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    
+}
+
+.dw__jersey-container_left-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.dw__jersey-container_left-top img {
+    width: 500px;
+    display: flex;
+    max-width: 32%;
+}
+
+.dw__jersey-container_left-middle {
+    width: 100%;
+    display: flex;
+    margin: 1rem 0 ;
+}
+
+.dw__jersey-container_left-middle img {
+    width: 100%;
+}
+
+.dw__jersey-container_left-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.dw__jersey-container_left-bottom img {
+    width: 49%;
+}
+
+.dw__jersey-container_right{
+    margin-left: 3rem;
+}
+
+.dw__jersey-container_right_details{
+    font-size: 20px;
+    width: 500px;
+    height: 250px;
+    background-color: var(--color-bg-product);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.dw__jersey-container_right_return-policy,
+.dw__jersey-container_right_free-delivery,
+.dw__jersey-container_right_express-delivery{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.dw__jersey-container_right_return-policy img,
+.dw__jersey-container_right_free-delivery img,
+.dw__jersey-container_right_express-delivery img{
+    
+    width: 30px;
+    margin-right: 2rem;
+}
+
+
+
+.dw__jersey-container_right_title h1{
+    line-height: 40px;
+    margin-bottom: 1rem;
+    
+}
+
+.dw__jersey-container_right_title h2{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.dw__jersey-container_right_title h3{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.dw__jersey-container_right_title div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dw__jersey-container_right_size{
+    display: flex;
+    flex-direction: column;
+}
+
+.dw__jersey-container_right_size h2{
+    margin-top: 3rem;
+}
+
+.dw__size-brackets{
+
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    
+}
+
+.dw__size-brackets div{
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background: none;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dw__size-brackets div:hover{
+    background-color: var(--color-bg-product);
+}
+
+.dw__jersey-container_right_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dw__buttons-add-to-cart{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: white;
+    display: flex;
+    height: 60px;
+    width: 500px;
+    background-color:#017DB5;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.dw__buttons-add-to-wishlist{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: black;
+    display: flex;
+    height: 60px;
+    width: 500px;
+    background-color:var(--color-bg-product);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 35px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.dw__buttons-add-to-cart:hover ,
+.dw__buttons-add-to-wishlist:hover{
+    border: solid 1px black;
+}
+
+.dw__jersey-container_right_description{
+    display: flex;
+    flex-direction: column;
+}
+
+.dw__jersey-container_right_description h2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.dw__jersey-container_right_description p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 2rem;
+}
+
+.dw__jersey-container-right_delivery h2{
+    margin: 2rem 0 1rem 0;
+}
+
+.dw__jersey-container-right_delivery p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 2rem;
+}
+
+
+
+
 
