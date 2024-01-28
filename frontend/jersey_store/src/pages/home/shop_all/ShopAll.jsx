@@ -7,13 +7,13 @@ import Women from '../../../assets/shop_women.png';
 import './shopAll.css';
 
 
-const ShopAll = () => {
+const ShopAll = (props) => {
   return (
     <div className='dw__shop-all section__margin'>
 
       <div className='dw__shop-all__title'>
-        <h1>KICK OFF STYLE, SCORE WITH GRACE</h1>
-        <p>EXPLORE</p>
+        <h1>{props.title}</h1>
+        <p>{props.click}</p>
       </div>
 
       <div className='dw__shop-all__body'>

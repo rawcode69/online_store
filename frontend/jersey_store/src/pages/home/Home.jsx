@@ -17,7 +17,7 @@ const Home = () => {
       <Label_Men_Women/>
       <Home_Display title = "BEST SELLERS OF THE SEASON" click="Explore" status = "BEST"/>
       <Brands/>
-      <Shop_All/>
+      <Shop_All title = {"KICK OFF STYLE, SCORE WITH GRACE"} click = {"EXPLORE"}/>
       {/* <HomeVideo/> */}
       <Footer/>
     </div>

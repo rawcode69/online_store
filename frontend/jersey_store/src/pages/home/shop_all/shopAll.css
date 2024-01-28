@@ -91,6 +91,11 @@
 
 @media screen and (max-width:850px) {
 
+  .dw__shop-all {
+    height: 350px;
+  
+  }
+
   .dw__shop-all__men__container,
   .dw__shop-all__kids__container,
   .dw__shop-all__women__container {
@@ -144,6 +149,16 @@
   .dw__shop-all__title p {
     font-size: 13px;
     font-weight: 750;
+  }
+
+  .dw__shop-all__men__container_button,
+  .dw__shop-all__kids__container_button,
+  .dw__shop-all__women__container_button {
+
+    height: 50px;
+    width: 140px;
+    font-size: 16px;
+
   }
 
 }

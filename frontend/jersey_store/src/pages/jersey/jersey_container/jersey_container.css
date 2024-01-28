@@ -3,14 +3,14 @@
     display: flex;
     flex-direction: row;
     font-family: var(--font-family);
-    
+
 }
 
 .dw__jersey-container_left {
     display: flex;
     flex-direction: column;
     min-width: 60%;
-    
+
 }
 
 .dw__jersey-container_left-top {
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 
 }
 
@@ -31,7 +31,7 @@
 .dw__jersey-container_left-middle {
     width: 100%;
     display: flex;
-    margin: 1rem 0 ;
+    margin: 1rem 0;
 }
 
 .dw__jersey-container_left-middle img {
@@ -50,13 +50,13 @@
     width: 49%;
 }
 
-.dw__jersey-container_right{
+.dw__jersey-container_right {
     margin-left: 3rem;
 }
 
-.dw__jersey-container_right_details{
+.dw__jersey-container_right_details {
     font-size: 20px;
-    width: 500px;
+    width: 450px;
     height: 250px;
     background-color: var(--color-bg-product);
     border-radius: 5px;
@@ -68,7 +68,7 @@
 
 .dw__jersey-container_right_return-policy,
 .dw__jersey-container_right_free-delivery,
-.dw__jersey-container_right_express-delivery{
+.dw__jersey-container_right_express-delivery {
     display: flex;
     align-items: center;
     margin-left: 2rem;
@@ -76,58 +76,58 @@
 
 .dw__jersey-container_right_return-policy img,
 .dw__jersey-container_right_free-delivery img,
-.dw__jersey-container_right_express-delivery img{
-    
+.dw__jersey-container_right_express-delivery img {
+
     width: 30px;
     margin-right: 2rem;
 }
 
 
 
-.dw__jersey-container_right_title h1{
+.dw__jersey-container_right_title h1 {
     line-height: 40px;
     margin-bottom: 1rem;
-    
+
 }
 
-.dw__jersey-container_right_title h2{
+.dw__jersey-container_right_title h2 {
     font-size: 25px;
     line-height: 30px;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
-.dw__jersey-container_right_title h3{
+.dw__jersey-container_right_title h3 {
     font-size: 20px;
     line-height: 25px;
     font-weight: 500;
 }
 
-.dw__jersey-container_right_title div{
+.dw__jersey-container_right_title div {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.dw__jersey-container_right_size{
+.dw__jersey-container_right_size {
     display: flex;
     flex-direction: column;
 }
 
-.dw__jersey-container_right_size h2{
-    margin-top: 3rem;
+.dw__jersey-container_right_size h2 {
+    margin-top: 1rem;
 }
 
-.dw__size-brackets{
+.dw__size-brackets {
 
     margin-top: 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     display: flex;
     width: 300px;
     justify-content: space-between;
-    
+
 }
 
-.dw__size-brackets div{
+.dw__size-brackets div {
     display: flex;
     width: 65px;
     height: 65px;
@@ -139,24 +139,24 @@
     cursor: pointer;
 }
 
-.dw__size-brackets div:hover{
+.dw__size-brackets div:hover {
     background-color: var(--color-bg-product);
 }
 
-.dw__jersey-container_right_buttons{
+.dw__jersey-container_right_buttons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.dw__buttons-add-to-cart{
+.dw__buttons-add-to-cart {
     font-family: var(--font-family);
     font-size: 25px;
     color: white;
     display: flex;
     height: 60px;
-    width: 500px;
-    background-color:#017DB5;
+    width: 450px;
+    background-color: #017DB5;
     justify-content: center;
     align-items: center;
     border: none;
@@ -165,14 +165,14 @@
     cursor: pointer;
 }
 
-.dw__buttons-add-to-wishlist{
+.dw__buttons-add-to-wishlist {
     font-family: var(--font-family);
     font-size: 25px;
     color: black;
     display: flex;
     height: 60px;
-    width: 500px;
-    background-color:var(--color-bg-product);
+    width: 450px;
+    background-color: var(--color-bg-product);
     justify-content: center;
     align-items: center;
     border: none;
@@ -181,29 +181,29 @@
     cursor: pointer;
 }
 
-.dw__buttons-add-to-cart:hover ,
-.dw__buttons-add-to-wishlist:hover{
+.dw__buttons-add-to-cart:hover,
+.dw__buttons-add-to-wishlist:hover {
     border: solid 1px black;
 }
 
-.dw__jersey-container_right_description{
+.dw__jersey-container_right_description {
     display: flex;
     flex-direction: column;
 }
 
-.dw__jersey-container_right_description h2{
+.dw__jersey-container_right_description h2 {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
 
-.dw__jersey-container_right_description p{
+.dw__jersey-container_right_description p {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 2rem;
 }
 
-.dw__jersey-container-right_delivery h2{
+.dw__jersey-container-right_delivery h2 {
     margin: 2rem 0 1rem 0;
 }
 
@@ -213,7 +213,289 @@
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width:1050px) {
+    .dw__jersey-container {
+        margin: 2rem 4rem 0rem 4rem;
+    }
+
+    .dw__jersey-container_right {
+        margin-left: 2rem;
+    }
+
+    .dw__jersey-container_left-middle {
+        margin: 0.65rem 0;
+    }
 
 
+    .dw__jersey-container_right_title h1 {
 
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 1rem;
 
+    }
+
+    .dw__jersey-container_right_title h2 {
+        font-size: 22px;
+        line-height: 25px;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .dw__jersey-container_right_title h3 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 500;
+    }
+
+    .dw__jersey-container_right_title div {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .dw__jersey-container_right_size h2 {
+        font-size: 22px;
+        margin-top: 1rem;
+    }
+
+    .dw__size-brackets {
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 300px;
+
+    }
+
+    .dw__size-brackets div {
+
+        width: 55px;
+        height: 55px;
+    }
+
+    .dw__buttons-add-to-cart {
+        font-size: 22px;
+        height: 50px;
+        width: 325px;
+        border-radius: 35px;
+        margin-bottom: 1rem;
+
+    }
+
+    .dw__buttons-add-to-wishlist {
+        font-size: 22px;
+        height: 50px;
+        width: 325px;
+        border-radius: 35px;
+        margin-bottom: 1rem;
+    }
+
+    .dw__jersey-container_right_details {
+        font-size: 17px;
+        width: 325px;
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    .dw__jersey-container_right_return-policy img,
+    .dw__jersey-container_right_free-delivery img,
+    .dw__jersey-container_right_express-delivery img {
+
+        width: 25px;
+        margin-right: 1.5rem;
+    }
+
+    .dw__jersey-container_right_description h2 {
+        font-size: 22px;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .dw__jersey-container_right_description p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2rem;
+    }
+    
+    .dw__jersey-container-right_delivery h2 {
+        font-size: 22px;
+        margin: 2rem 0 1rem 0;
+    }
+    
+    .dw__jersey-container-right_delivery p {
+        font-size: 18px;
+        line-height: 22px;  
+        
+    }
+
+}
+
+@media screen and (max-width:850px) {
+
+    .dw__jersey-container {
+        margin: 2rem 3rem 0rem 3rem;
+    }
+
+    .dw__jersey-container_right_title h1 {
+
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 0.5rem;
+
+    }
+
+    .dw__jersey-container_right_title h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 0.35rem;
+    }
+
+    .dw__jersey-container_right_title h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .dw__jersey-container_right_title div {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .dw__jersey-container_right_size h2 {
+        font-size: 20px;
+        margin-top: 0rem;
+    }
+
+    .dw__size-brackets {
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 235px;
+
+    }
+
+    .dw__size-brackets div {
+
+        width: 45px;
+        height: 45px;
+    }
+
+    .dw__buttons-add-to-cart {
+        font-size: 20px;
+        height: 45px;
+        width: 265px;
+        border-radius: 35px;
+        margin-bottom: 1rem;
+
+    }
+
+    .dw__buttons-add-to-wishlist {
+        font-size: 20px;
+        height: 45px;
+        width: 265px;
+        border-radius: 35px;
+        margin-bottom: 1rem;
+    }
+
+    .dw__jersey-container_right_details {
+        font-size: 16px;
+        width: 265px;
+        height: 200px;
+    }
+
+    .dw__jersey-container_right_return-policy img,
+    .dw__jersey-container_right_free-delivery img,
+    .dw__jersey-container_right_express-delivery img {
+
+        width: 25px;
+        margin-right: 1.5rem;
+    }
+    
+    
+    .dw__jersey-container_right_description  {
+        display: none;
+    }
+
+    .dw__jersey-container-right_delivery h2 {
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .dw__jersey-container-right_delivery p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .dw__footer{
+        margin-top: 1rem;
+    }  
+
+    .dw__jersey-container_left-middle {
+        margin: 0.5rem 0;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .dw__jersey-container {
+        margin: 2rem 2rem 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+
+    .dw__jersey-container_right {
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+    .dw__size-brackets {
+
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        width: 300px;
+
+    }
+
+    .dw__size-brackets div {
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .dw__buttons-add-to-cart {
+        height: 60px;
+        width: 300px;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .dw__buttons-add-to-wishlist {
+        height: 60px;
+        width: 300px;
+        margin-bottom: 1.5rem;
+    }
+
+    .dw__jersey-container_right_details {
+        font-size: 16px;
+        width:300px;
+        height: 200px;
+        margin-bottom: 1.5rem;
+    }
+
+    .dw__jersey-container-right_delivery p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .dw__shop-all{
+        margin-top: 1rem;
+    }
+
+    .dw__jersey-container_left-middle {
+        margin: 0.35rem 0;
+    }
+}
