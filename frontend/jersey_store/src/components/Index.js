@@ -3,3 +3,4 @@ export {default as Footer} from './footer/Footer';
 export {default as Jersey} from './jersey/Jersey';
 export {default as Navbar} from './navbar/Navbar';
 export {default as StatusLabel} from './status_label/StatusLabel';
+export {default as Checkout_Status} from './checkout_status/Checkout_Status';

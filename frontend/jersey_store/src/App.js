@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Jersy from './pages/jersey/Jersey';
 import Men from './pages/men/Men';
 import Women from './pages/women/Women'
+import Cart from './pages/cart/Cart';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path='/men' element = {<Men/>}/>
         <Route path='/women' element = {<Women/>}/>
         <Route path='/jersey' element = {<Jersy/>}/>
-        
+        <Route path='/cart' element = {<Cart/>}/>
       </Routes>
     </BrowserRouter>
 
